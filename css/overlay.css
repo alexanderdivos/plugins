@@ -1,0 +1,60 @@
+a.header {
+	display: block;
+	width: 115px;
+	padding: 1px;
+	margin-right: 40px;
+}
+img:not(.header) {
+	opacity: 0.7;
+	filter: aplpha(opacity=40);
+	position: fixed;
+	bottom: 5px;
+	width: 50px;
+	height: 50px;
+}
+img.header {
+	opacity: 1.0;
+	filter: aplpha(opacity=40);
+	position: fixed;
+}
+img.github {
+	right: 10px;
+}
+img.youtube {
+	right: 65px;
+}
+img.twitter {
+	right: 120px;
+}
+img.nodecraft {
+	left: 10px;
+	width: 166px;
+	opacity: 0.9;
+}
+span.nodecraft {
+	left: 20px;
+}
+span.overlay {
+	right: 40px;
+}
+span {
+	position: fixed;
+	bottom: 70px;
+	font-weight: bold;
+	font-size: 150%;
+	color: #222222;
+	background-color: #F2F2F2;
+	border-color: #555555;
+	border-width: 1px;
+	border-style: solid;
+}
+img:hover {
+	opacity: 1.0;
+	filter: aplpha(opacity=100);
+}
+img + span {
+    display: none;
+}
+img:hover + span {
+    display: inline;
+}
