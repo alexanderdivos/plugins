@@ -13,11 +13,16 @@ ul {
 }
 .twitter-timeline {
 	float: right;
+	
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #2B2B2B;
 }
 table {
 	width: 98%;
 	margin: 0 auto;
-	padding: 3px;
+	padding: 4px;
 	
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
@@ -60,6 +65,7 @@ a:hover {
 th {
 	font-weight: bold;
 	overflow: hidden;
+	height: 30px;
 	background-color:#FAFFFA;
 }
 td {
