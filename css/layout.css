@@ -22,19 +22,16 @@ ul {
 table {
 	width: 98%;
 	margin: 0 auto;
-	padding: 4px;
-	
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 2px solid #2B2B2B;
+	border: 2px solid #000000;
+}
+td {
+	width: 5%;
 }
 td, th {
 	vertical-align:middle;
 	background-color:#FDFFFD;
+	border: 1px solid #EDEFED;
 
-	border:0px solid #000000;
-	border-width:0px 0px 0px 0px;
 	text-align: center;
 	padding:7px;
 	font-size:17px;
@@ -114,7 +111,4 @@ div.article {
 	display: table-cell;
 	word-wrap: break-word;
 	z-index: -2;
-}
-tr td,th {
-	border-bottom:1pt solid black;
 }
